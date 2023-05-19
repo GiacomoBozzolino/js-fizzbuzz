@@ -1,17 +1,32 @@
 const total_number = 100
-let fizz
+
+let tre = ' '
+let cinque = ' '
+let quindici = ' '
 
 
-console.log(total_number)
 for (let i = 1; i <= total_number; i++){
     if ((i % 3 === 0) && (i % 5 !== 0)) {
-        console.log(`${i} Fizz`)
+        tre = 'Fizz'
+        console.log(tre)
     }
 
     else if ((i % 3 !== 0) && (i % 5 === 0)) {
-        console.log(`${i} BUzz`)
+        cinque = 'Buzz'
+        console.log(cinque)
 
+    } else {
+        if((i % 3 === 0) && (i % 5 === 0)) {
+            quindici = 'FizzBuzz'
+            console.log(quindici)
+        }
+
+        else {
+            console.log(i)
+        }
     }
+       
 
-    // console.log(i)
+
+    
 }

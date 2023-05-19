@@ -1,54 +1,40 @@
 const total_number = 100
 let list = document.getElementById ('list')
 
-
-
 let tre = ' '
 let cinque = ' '
 let quindici = ' '
 
-
+// INIZO CICLO FOR
 for (let i = 1; i <= total_number; i++){
-    // list.innerHTML += `<li> ${i} </li>` 
-    
+        let new_number= document.createElement('li') 
+        list.append (new_number)
+    // PRIMA CONDIZIONE
     if ((i % 3 === 0) && (i % 5 !== 0)) {
         tre = 'Fizz'
         console.log(tre)
-        let new_number= document.createElement('li')
-        new_number.innerText = tre
-        list.append (new_number)
-        // list.innerHTML += `<li> ${tre} </li>`
-      
+        new_number.innerText = tre  
     }
-
+    // SECONDA CONDIZIONE
     else if ((i % 3 !== 0) && (i % 5 === 0)) {
         cinque = 'Buzz'
-        // list.innerHTML += `<li> ${cinque} </li>`
         console.log(cinque)
-        let new_number= document.createElement('li')
         new_number.innerText = cinque
-        list.append (new_number)
-
+        
+    // TERZA CONDIZIONE
     } else {
         if((i % 3 === 0) && (i % 5 === 0)) {
             quindici = 'FizzBuzz'
-            // list.innerHTML += `<li> ${quindici} </li>`
             console.log(quindici)
-            let new_number= document.createElement('li')
-            new_number.innerText = quindici
-            list.append (new_number)
+            new_number.innerText = quindici 
         }
-
+        // QUARTA CONDIZIONE
         else {
             console.log(i)
-            
-            let new_number= document.createElement('li')
-            new_number.innerText = i
-            list.append (new_number)
+            new_number.innerText = i 
         }
     }
-     
-    
+  
 }
-
+// FINE CICLO FOR
 

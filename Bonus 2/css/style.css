@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(1, 1, 102, 0.788);
+}
+
+.contet{
+    width: 1500px;
+    margin: 0 auto
+}
+
+
+.square{
+    height: 100px;
+    width: 100px;
+    color:white;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+.fizz{
+    background-color: rgb(188, 230, 52);
+}
+
+.buzz{
+    background-color: crimson;
+}
+
+
+.fizzbuzz{
+    background-color: darkgreen;
+}
+
+.number{
+    background-color: darkslategray;
+}
+
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.i{
+    background-color: darkviolet;
+}

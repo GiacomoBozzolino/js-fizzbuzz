@@ -5,37 +5,42 @@
 }
 
 body{
-    background-color: rgba(1, 1, 102, 0.788);
+    background-color: rgba(46, 113, 112, 0.613);
 }
 
 .contet{
     width: 1500px;
     margin: 0 auto
 }
-
+ .shadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ }
 
 .square{
     height: 100px;
     width: 100px;
     color:white;
-    border: 1px solid black;
     margin: 10px;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
 }
 
 
 .fizz{
-    background-color: rgb(188, 230, 52);
+    background-color: rgb(52, 144, 230);
 }
 
 .buzz{
-    background-color: crimson;
+    background-color: rgb(88, 66, 213);
 }
 
 
 .fizzbuzz{
-    background-color: darkgreen;
+    background-color: rgb(48, 28, 148);
 }
 
 .number{
@@ -52,5 +57,5 @@ body{
 }
 
 .i{
-    background-color: darkviolet;
+    background-color: rgba(0, 211, 179, 0.76);
 }

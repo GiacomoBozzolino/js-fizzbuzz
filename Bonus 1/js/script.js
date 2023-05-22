@@ -1,3 +1,5 @@
+"use strict";
+
 const total_number = 100
 let list = document.getElementById ('list')
 

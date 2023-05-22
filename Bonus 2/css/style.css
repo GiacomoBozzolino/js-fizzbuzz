@@ -8,10 +8,7 @@ body{
     background-color: rgba(46, 113, 112, 0.613);
 }
 
-.contet{
-    width: 1500px;
-    margin: 0 auto
-}
+
  .shadow{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
  }
